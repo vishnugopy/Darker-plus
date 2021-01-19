@@ -19,4 +19,9 @@ chrome.runtime.onInstalled.addListener(function() {
     });
   });
 
-let changeColor = document.querySelector('#changeColor');
+let button = document.querySelector('#changeColor');
+function text(){
+  console.log("hello");
+}
+
+button.addEventListener("click",text)
